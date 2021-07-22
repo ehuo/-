@@ -1,8 +1,13 @@
 package cn.bhy.strategy;
 
+/**
+ *  定义Cat类
+ */
+public class Cat {
 
-public class Cat implements Comparable<Cat>{
+    //身高
     private int height;
+    //年龄
     private int age;
 
     public Cat(int height, int age) {
@@ -16,11 +21,6 @@ public class Cat implements Comparable<Cat>{
 
     public int getAge() {
         return age;
-    }
-
-    @Override
-    public int compareTo(Cat o) {
-        return 0;
     }
 
     @Override
