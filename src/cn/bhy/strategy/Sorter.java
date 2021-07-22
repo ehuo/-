@@ -9,7 +9,7 @@ import java.util.Comparator;
 public class Sorter<T> {
 
     /**
-     * 排序方法
+     * 通过指定排序类型对数据进行排序
      * @return 排序结果
      */
     public T[] sort(T[] arr, Comparator<T> comparator){
